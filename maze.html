@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>1-line JS Maze</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body style="background:#446991";>
+		<span id='maze' style="display:block; overflow:hidden; font-size:2em; line-height:1; background:#fff; color:#446991; word-break:break-all; height:98vh;"></span>
+		<script>
+			for (var i=0; i<2000; i++){	var mazeChar = '&#958' + Math.round(Math.random()+5)+';'; document.getElementById('maze').innerHTML += mazeChar; }
+		</script>
+	</body>
+</html>
